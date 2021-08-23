@@ -1,0 +1,448 @@
+*{
+	font-family: helvetica !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background-color:#484848;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+h1{
+	color: #292929;
+	margin: 0;
+	padding: 1%;
+}
+p{
+	line-height: 145%;
+	padding: 1%;
+	text-align: left;
+}
+.h2_normal{
+	color: #292929;
+	padding: 0;
+	margin: 0;
+	padding-left: 0.5%;
+}
+.p_normal{
+	margin: 0 auto;
+	padding: 1%;
+	color: #292929;
+	line-height: 145%;
+}
+
+
+/*Navigation bar*/
+
+.nav{
+	width: 100%;
+	display: inline-block;
+	list-style: none;
+	margin: auto;
+	margin-bottom: 2%;
+	text-align: center;
+	padding: 0 1% 0.5% 1%;
+	background-color: #292929;
+	overflow: auto;
+	vertical-align: middle;
+
+}
+.nav > img{
+	float: left;
+	padding-top: 0.5%;
+	width: 10%;
+	margin: 0;
+}
+.nav > ul > li{
+	display: inline-block;
+	padding: 0.5% 1% 0% 1%;
+	text-transform: uppercase;
+	vertical-align: middle;
+	font-size: 1.3em;
+}
+.nav a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	vertical-align: middle;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.nonactive a:hover{
+	color: #8c001a;
+}
+.active a{
+	text-decoration: underline;
+	color: #484848;
+}
+
+
+/*Wrapper*/
+
+.wrapper{
+	width: 85%;
+	max-width: 1500px;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	padding: 0px 10px 0px 10px;
+}
+.content-wrapper{
+	background-color:#fff;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	overflow: auto;
+}
+.grid{
+	display: table;
+}
+.grid h1{
+	text-align: center;
+}
+.col-1{
+	float: left;
+	width:50%;
+	color: #292929;
+	padding: 1%;
+	min-width: 250px;
+}
+.contact{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*Thumbnails*/
+
+.thumbnails{
+	display: table;
+	margin: 0 auto;
+}
+.thumbnail h2{
+	text-align: center;
+	color: #292929	
+}
+.thumbnail{
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 25%;
+	min-width: 200px;
+}
+.thumbnail img{
+	width: 100%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.thumbnail img:hover {
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,15);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,15);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,15);
+}
+.thumbnail a{
+	display: block;
+}
+.thumbnail p{
+	color: #292929;
+	text-align: center;
+}
+.thumbnails-g{
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	padding: 1% 0 1% 0;
+}
+.thumbnail-g{
+	float: left;
+	width: 20%;
+	min-width: 200px;
+}
+.thumbnail-g img{
+	margin: 0 auto;
+	width: 80%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.thumbnail-g img:hover {
+	-webkit-box-shadow: 0px 0px 100px 1px rgba(0,0,0,15);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,15);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,15);
+}
+.thumbnail-g h2{
+	color: #292929;
+	text-align: center;
+	padding: 0 5% 0 5%;
+}
+.thumbnail-g p{
+	color: #292929;
+	text-align: center;
+	padding: 0 5% 0 5%;
+}
+
+
+/*Footer*/
+
+.footer{
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	color: #dbdbdb;
+}
+.col-f1{
+	font-size: 13px;
+	width: 25%;
+	padding: 0 1% 0 1%;
+	margin: 0;
+	float: left;
+	text-align: center;
+}
+
+
+/*Individual games pages*/
+
+/*Poker Table styling*/
+.poker_hands{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1% auto;
+    padding: 1% 2% 1% 2%;
+}
+
+.poker_hands td, .poker_hands th {
+    border: 1px solid #660013;
+    white-space: auto;
+    padding: 3px;
+}
+
+.poker_hands th {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0.5%;
+    background-color: #8C001A;
+    color: #ffffff;
+}
+
+.poker_hands tr.alt td {
+    color: #000;
+    background-color: #d9d9d9;
+}
+/*Dice table styling*/
+.dicebets{
+	margin: auto;
+	padding: 0%;
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+.dicebets tr{
+	width: auto;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+.dicebets td{
+	padding: 5px;
+	margin: 0;
+}
+.dicebets th{
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+.dicealt{
+	background-color: #d9d9d9;
+}
+
+.games_phases{
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 1%;
+	min-width: 250px;
+	text-align: center;
+	background-color: #8C001A;
+	margin-bottom: 1%;
+}
+.games_pictures{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+.games_pictures img{
+	width: 100%;
+	max-height: 1200px;
+	min-height: 400px;
+	padding: 0;
+	margin: 0 auto;
+}
+.games_pictures a{
+	text-decoration: none;
+	display: block;
+}
+.col-2{
+	text-align:left;
+	float: left;
+	width: 70%;
+	color: #292929;
+	padding: 1%;
+	min-width: 250px;
+}
+.col-3{
+	float: left;
+	width: 30%;
+	min-width: 250px;
+}
+.col-3 img{
+	width: 100%;
+	min-width: 250px;
+	color: #292929;
+	padding: 0;
+	margin: 0;
+}
+.g_col-1{
+	width: 25%;
+	height: 25%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	min-height: 200px;
+	max-height: 1000px;
+	overflow: visible;
+	cursor: pointer;
+}
+.g_col-1 img{
+	padding: 3%;
+	width: 100%;
+	float: left;
+}
+
+/*Booking template*/
+
+.bookingtemplate{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 1% auto;
+}
+
+.bookingtemplate td, .bookingtemplate th {
+    border: 1px solid #660013;
+    white-space: auto;
+    padding: 3px;
+}
+
+.bookingtemplate th {
+	text-align: left;
+    background-color: #8C001A;
+    color: #ffffff;
+}
+
+.bookingtemplate td {
+    color: #000;
+    width: 70%;
+}
+
+
+/*games rollovers*/
+
+.rollover_r{
+	margin: 1% auto;
+	padding: 0;
+	margin-bottom: 3%;
+	display: block;
+	width: 100%;
+	padding-bottom: 33.3%;
+	height: 0;
+	min-width: 120px;
+	min-height: 40px;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	background: url(./MiscImages/roulettealt.jpg);
+	overflow: hidden;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+.rollover_r:hover{
+	background-position: 0 100%;
+}
+.rollover_d{
+	margin: 0 auto;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	padding: 0;
+	display: block;
+	width: 100%;
+	padding-bottom: 33.3%;
+	height: 0;
+	min-width: 120px;
+	min-height: 40px;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	background: url(./MiscImages/dicealt.jpg);
+	overflow: hidden;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+.rollover_d:hover{
+	background-position: 0 100%;
+}
+.rollover_b{
+	margin: 0 auto;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	padding: 0;
+	display: block;
+	width: 100%;
+	padding-bottom: 33.3%;
+	height: 0;
+	min-width: 120px;
+	min-height: 40px;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	background: url(./MiscImages/blackjackalt.jpg);
+	overflow: hidden;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+.rollover_b:hover{
+	background-position: 0 100%;
+}
+.rollover_p{
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 1%;
+	padding: 0;
+	display: block;
+	width: 100%;
+	padding-bottom: 33.3%;
+	height: 0;
+	min-width: 120px;
+	min-height: 40px;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	background: url(./MiscImages/pokeralt.jpg);
+	overflow: hidden;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+.rollover_p:hover{
+	background-position: 0 100%;
+}
